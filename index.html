@@ -40,7 +40,7 @@
         <script>
         var map = L.map('map', {
             zoomControl:true, maxZoom:28, minZoom:1
-        }).fitBounds([[40.01925004181851,-74.06874064134412],[40.03249073393911,-74.04420171228216]]);
+        }).fitBounds([[40.02074252133804,-74.06873062529134],[40.03099838996781,-74.04421108927114]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -75,7 +75,7 @@
         map.createPane('pane_Morgan_1');
         map.getPane('pane_Morgan_1').style.zIndex = 401;
         var img_Morgan_1 = 'data/Morgan_1.png';
-        var img_bounds_Morgan_1 = [[40.02689018415497,-74.05783353518346],[40.0289829972166,-74.05585810285788]];
+        var img_bounds_Morgan_1 = [[40.02689025370062,-74.05783295046112],[40.028983068555185,-74.05585753080531]];
         var layer_Morgan_1 = new L.imageOverlay(img_Morgan_1,
                                               img_bounds_Morgan_1,
                                               {pane: 'pane_Morgan_1'});
@@ -83,7 +83,7 @@
         map.createPane('pane_NJDEP1977c_2');
         map.getPane('pane_NJDEP1977c_2').style.zIndex = 402;
         var img_NJDEP1977c_2 = 'data/NJDEP1977c_2.png';
-        var img_bounds_NJDEP1977c_2 = [[40.02054575757669,-74.07481358210778],[40.043382717306244,-74.05091227923906]];
+        var img_bounds_NJDEP1977c_2 = [[40.020545821749515,-74.07481296071401],[40.043382799403986,-74.0509117953252]];
         var layer_NJDEP1977c_2 = new L.imageOverlay(img_NJDEP1977c_2,
                                               img_bounds_NJDEP1977c_2,
                                               {pane: 'pane_NJDEP1977c_2'});
@@ -91,7 +91,7 @@
         map.createPane('pane_NJDEP1977b_3');
         map.getPane('pane_NJDEP1977b_3').style.zIndex = 403;
         var img_NJDEP1977b_3 = 'data/NJDEP1977b_3.png';
-        var img_bounds_NJDEP1977b_3 = [[40.02025940490637,-74.07561776054004],[40.042434480243706,-74.04962455804794]];
+        var img_bounds_NJDEP1977b_3 = [[40.02025946814886,-74.07561713766039],[40.04243456248702,-74.04962406913069]];
         var layer_NJDEP1977b_3 = new L.imageOverlay(img_NJDEP1977b_3,
                                               img_bounds_NJDEP1977b_3,
                                               {pane: 'pane_NJDEP1977b_3'});
@@ -99,7 +99,7 @@
         map.createPane('pane_NJDEP1977a_4');
         map.getPane('pane_NJDEP1977a_4').style.zIndex = 404;
         var img_NJDEP1977a_4 = 'data/NJDEP1977a_4.png';
-        var img_bounds_NJDEP1977a_4 = [[40.02024934662783,-74.07553312747457],[40.04361627785811,-74.0494320482488]];
+        var img_bounds_NJDEP1977a_4 = [[40.02024940975064,-74.075532504542],[40.04361636022894,-74.04943156667892]];
         var layer_NJDEP1977a_4 = new L.imageOverlay(img_NJDEP1977a_4,
                                               img_bounds_NJDEP1977a_4,
                                               {pane: 'pane_NJDEP1977a_4'});
@@ -107,7 +107,7 @@
         map.createPane('pane_USDA1963_5');
         map.getPane('pane_USDA1963_5').style.zIndex = 405;
         var img_USDA1963_5 = 'data/USDA1963_5.png';
-        var img_bounds_USDA1963_5 = [[40.021219497961425,-74.06346396030744],[40.03069839085205,-74.05132603652606]];
+        var img_bounds_USDA1963_5 = [[40.021219562627905,-74.06346334244037],[40.0306984655551,-74.0513254757096]];
         var layer_USDA1963_5 = new L.imageOverlay(img_USDA1963_5,
                                               img_bounds_USDA1963_5,
                                               {pane: 'pane_USDA1963_5'});
@@ -115,59 +115,75 @@
         map.createPane('pane_NewJersey1957_6');
         map.getPane('pane_NewJersey1957_6').style.zIndex = 406;
         var img_NewJersey1957_6 = 'data/NewJersey1957_6.png';
-        var img_bounds_NewJersey1957_6 = [[40.02227261188694,-74.0625338282948],[40.03044133635028,-74.04848294544983]];
+        var img_bounds_NewJersey1957_6 = [[40.02227267530201,-74.06253321652324],[40.03044141052193,-74.04848238381786]];
         var layer_NewJersey1957_6 = new L.imageOverlay(img_NewJersey1957_6,
                                               img_bounds_NewJersey1957_6,
                                               {pane: 'pane_NewJersey1957_6'});
         bounds_group.addLayer(layer_NewJersey1957_6);
-        map.createPane('pane_BrickTownship1957_7');
-        map.getPane('pane_BrickTownship1957_7').style.zIndex = 407;
-        var img_BrickTownship1957_7 = 'data/BrickTownship1957_7.png';
-        var img_bounds_BrickTownship1957_7 = [[40.02060274041193,-74.06415090201511],[40.03211144477553,-74.0509999709105]];
-        var layer_BrickTownship1957_7 = new L.imageOverlay(img_BrickTownship1957_7,
-                                              img_bounds_BrickTownship1957_7,
-                                              {pane: 'pane_BrickTownship1957_7'});
-        bounds_group.addLayer(layer_BrickTownship1957_7);
-        map.createPane('pane_USDA1956_8');
-        map.getPane('pane_USDA1956_8').style.zIndex = 408;
-        var img_USDA1956_8 = 'data/USDA1956_8.png';
-        var img_bounds_USDA1956_8 = [[40.02122182489799,-74.0634241027233],[40.030706129497,-74.05130756431083]];
-        var layer_USDA1956_8 = new L.imageOverlay(img_USDA1956_8,
-                                              img_bounds_USDA1956_8,
-                                              {pane: 'pane_USDA1956_8'});
-        bounds_group.addLayer(layer_USDA1956_8);
-        map.createPane('pane_USGS1953_9');
-        map.getPane('pane_USGS1953_9').style.zIndex = 409;
-        var img_USGS1953_9 = 'data/USGS1953_9.png';
-        var img_bounds_USGS1953_9 = [[40.02122182489799,-74.0634241027233],[40.030706129497,-74.05130756431083]];
-        var layer_USGS1953_9 = new L.imageOverlay(img_USGS1953_9,
-                                              img_bounds_USGS1953_9,
-                                              {pane: 'pane_USGS1953_9'});
-        bounds_group.addLayer(layer_USGS1953_9);
-        map.createPane('pane_USDA1940_10');
-        map.getPane('pane_USDA1940_10').style.zIndex = 410;
-        var img_USDA1940_10 = 'data/USDA1940_10.png';
-        var img_bounds_USDA1940_10 = [[40.02122182489799,-74.0634241027233],[40.030706129497,-74.05130756431083]];
-        var layer_USDA1940_10 = new L.imageOverlay(img_USDA1940_10,
-                                              img_bounds_USDA1940_10,
-                                              {pane: 'pane_USDA1940_10'});
-        bounds_group.addLayer(layer_USDA1940_10);
-        map.createPane('pane_USArmy1933_11');
-        map.getPane('pane_USArmy1933_11').style.zIndex = 411;
-        var img_USArmy1933_11 = 'data/USArmy1933_11.png';
-        var img_bounds_USArmy1933_11 = [[40.02122182489799,-74.0634241027233],[40.030706129497,-74.05130756431083]];
-        var layer_USArmy1933_11 = new L.imageOverlay(img_USArmy1933_11,
-                                              img_bounds_USArmy1933_11,
-                                              {pane: 'pane_USArmy1933_11'});
-        bounds_group.addLayer(layer_USArmy1933_11);
-        map.createPane('pane_USArmy1920_12');
-        map.getPane('pane_USArmy1920_12').style.zIndex = 412;
-        var img_USArmy1920_12 = 'data/USArmy1920_12.png';
-        var img_bounds_USArmy1920_12 = [[40.02122182489799,-74.0634241027233],[40.030706129497,-74.05130756431083]];
-        var layer_USArmy1920_12 = new L.imageOverlay(img_USArmy1920_12,
-                                              img_bounds_USArmy1920_12,
-                                              {pane: 'pane_USArmy1920_12'});
-        bounds_group.addLayer(layer_USArmy1920_12);
+        map.createPane('pane_BrickTownship1957MarshAligned_7');
+        map.getPane('pane_BrickTownship1957MarshAligned_7').style.zIndex = 407;
+        var img_BrickTownship1957MarshAligned_7 = 'data/BrickTownship1957MarshAligned_7.png';
+        var img_bounds_BrickTownship1957MarshAligned_7 = [[40.02051880233745,-74.06410991897941],[40.03202752251101,-74.0509590666297]];
+        var layer_BrickTownship1957MarshAligned_7 = new L.imageOverlay(img_BrickTownship1957MarshAligned_7,
+                                              img_bounds_BrickTownship1957MarshAligned_7,
+                                              {pane: 'pane_BrickTownship1957MarshAligned_7'});
+        bounds_group.addLayer(layer_BrickTownship1957MarshAligned_7);
+        map.createPane('pane_BrickTownship1957_8');
+        map.getPane('pane_BrickTownship1957_8').style.zIndex = 408;
+        var img_BrickTownship1957_8 = 'data/BrickTownship1957_8.png';
+        var img_bounds_BrickTownship1957_8 = [[40.020602804618065,-74.06415028065253],[40.03211152020059,-74.05099941874369]];
+        var layer_BrickTownship1957_8 = new L.imageOverlay(img_BrickTownship1957_8,
+                                              img_bounds_BrickTownship1957_8,
+                                              {pane: 'pane_BrickTownship1957_8'});
+        bounds_group.addLayer(layer_BrickTownship1957_8);
+        map.createPane('pane_USDA1956_9');
+        map.getPane('pane_USDA1956_9').style.zIndex = 409;
+        var img_USDA1956_9 = 'data/USDA1956_9.png';
+        var img_bounds_USDA1956_9 = [[40.02122188955419,-74.06342348486955],[40.030706204182536,-74.05130700354704]];
+        var layer_USDA1956_9 = new L.imageOverlay(img_USDA1956_9,
+                                              img_bounds_USDA1956_9,
+                                              {pane: 'pane_USDA1956_9'});
+        bounds_group.addLayer(layer_USDA1956_9);
+        map.createPane('pane_USGS1953_10');
+        map.getPane('pane_USGS1953_10').style.zIndex = 410;
+        var img_USGS1953_10 = 'data/USGS1953_10.png';
+        var img_bounds_USGS1953_10 = [[40.02122188955419,-74.06342348486955],[40.030706204182536,-74.05130700354704]];
+        var layer_USGS1953_10 = new L.imageOverlay(img_USGS1953_10,
+                                              img_bounds_USGS1953_10,
+                                              {pane: 'pane_USGS1953_10'});
+        bounds_group.addLayer(layer_USGS1953_10);
+        map.createPane('pane_USDA1940_11');
+        map.getPane('pane_USDA1940_11').style.zIndex = 411;
+        var img_USDA1940_11 = 'data/USDA1940_11.png';
+        var img_bounds_USDA1940_11 = [[40.02122188955419,-74.06342348486955],[40.030706204182536,-74.05130700354704]];
+        var layer_USDA1940_11 = new L.imageOverlay(img_USDA1940_11,
+                                              img_bounds_USDA1940_11,
+                                              {pane: 'pane_USDA1940_11'});
+        bounds_group.addLayer(layer_USDA1940_11);
+        map.createPane('pane_USArmy1933_12');
+        map.getPane('pane_USArmy1933_12').style.zIndex = 412;
+        var img_USArmy1933_12 = 'data/USArmy1933_12.png';
+        var img_bounds_USArmy1933_12 = [[40.02122188955419,-74.06342348486955],[40.030706204182536,-74.05130700354704]];
+        var layer_USArmy1933_12 = new L.imageOverlay(img_USArmy1933_12,
+                                              img_bounds_USArmy1933_12,
+                                              {pane: 'pane_USArmy1933_12'});
+        bounds_group.addLayer(layer_USArmy1933_12);
+        map.createPane('pane_USArmy1920Revised_13');
+        map.getPane('pane_USArmy1920Revised_13').style.zIndex = 413;
+        var img_USArmy1920Revised_13 = 'data/USArmy1920Revised_13.png';
+        var img_bounds_USArmy1920Revised_13 = [[40.021169530622295,-74.06381554830966],[40.030886730377055,-74.05109765859159]];
+        var layer_USArmy1920Revised_13 = new L.imageOverlay(img_USArmy1920Revised_13,
+                                              img_bounds_USArmy1920Revised_13,
+                                              {pane: 'pane_USArmy1920Revised_13'});
+        bounds_group.addLayer(layer_USArmy1920Revised_13);
+        map.createPane('pane_USArmy1920_14');
+        map.getPane('pane_USArmy1920_14').style.zIndex = 414;
+        var img_USArmy1920_14 = 'data/USArmy1920_14.png';
+        var img_bounds_USArmy1920_14 = [[40.02122188955419,-74.06342348486955],[40.030706204182536,-74.05130700354704]];
+        var layer_USArmy1920_14 = new L.imageOverlay(img_USArmy1920_14,
+                                              img_bounds_USArmy1920_14,
+                                              {pane: 'pane_USArmy1920_14'});
+        bounds_group.addLayer(layer_USArmy1920_14);
         var osmGeocoder = new L.Control.Geocoder({
             collapsed: true,
             position: 'topleft',
@@ -179,14 +195,14 @@
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
         .title += 'Search for a place';
         var baseMaps = {};
-        L.control.layers(baseMaps,{"US Army 1920": layer_USArmy1920_12,"US Army 1933": layer_USArmy1933_11,"USDA 1940": layer_USDA1940_10,"USGS 1953": layer_USGS1953_9,"USDA 1956": layer_USDA1956_8,"Brick Township 1957": layer_BrickTownship1957_7,"New Jersey 1957": layer_NewJersey1957_6,"USDA 1963": layer_USDA1963_5,"NJDEP 1977a": layer_NJDEP1977a_4,"NJDEP 1977b": layer_NJDEP1977b_3,"NJDEP 1977c": layer_NJDEP1977c_2,"Morgan": layer_Morgan_1,"ArcGIS Imagery": layer_ArcGISImagery_0,}).addTo(map);
+        L.control.layers(baseMaps,{"US Army 1920": layer_USArmy1920_14,"US Army 1920 Revised": layer_USArmy1920Revised_13,"US Army 1933": layer_USArmy1933_12,"USDA 1940": layer_USDA1940_11,"USGS 1953": layer_USGS1953_10,"USDA 1956": layer_USDA1956_9,"Brick Township 1957": layer_BrickTownship1957_8,"Brick Township 1957 Marsh Aligned": layer_BrickTownship1957MarshAligned_7,"New Jersey 1957": layer_NewJersey1957_6,"USDA 1963": layer_USDA1963_5,"NJDEP 1977a": layer_NJDEP1977a_4,"NJDEP 1977b": layer_NJDEP1977b_3,"NJDEP 1977c": layer_NJDEP1977c_2,"Morgan": layer_Morgan_1,"ArcGIS Imagery": layer_ArcGISImagery_0,}).addTo(map);
         setBounds();
         L.ImageOverlay.include({
             getBounds: function () {
                 return this._bounds;
             }
         });
-		const Map_AddLayer = {"US Army 1920": layer_USArmy1920_12,"US Army 1933": layer_USArmy1933_11,"USDA 1940": layer_USDA1940_10,"USGS 1953": layer_USGS1953_9,"USDA 1956": layer_USDA1956_8,"Brick Township 1957": layer_BrickTownship1957_7,"New Jersey 1957": layer_NewJersey1957_6,"USDA 1963": layer_USDA1963_5,"NJDEP 1977a": layer_NJDEP1977a_4,"NJDEP 1977b": layer_NJDEP1977b_3,"NJDEP 1977c": layer_NJDEP1977c_2,"Morgan": layer_Morgan_1,"ArcGIS Imagery": layer_ArcGISImagery_0,};
+		const Map_AddLayer = {"US Army 1920": layer_USArmy1920_14,"US Army 1920 Revised": layer_USArmy1920Revised_13,"US Army 1933": layer_USArmy1933_12,"USDA 1940": layer_USDA1940_11,"USGS 1953": layer_USGS1953_10,"USDA 1956": layer_USDA1956_9,"Brick Township 1957": layer_BrickTownship1957_8,"Brick Township 1957 Marsh Aligned": layer_BrickTownship1957MarshAligned_7,"New Jersey 1957": layer_NewJersey1957_6,"USDA 1963": layer_USDA1963_5,"NJDEP 1977a": layer_NJDEP1977a_4,"NJDEP 1977b": layer_NJDEP1977b_3,"NJDEP 1977c": layer_NJDEP1977c_2,"Morgan": layer_Morgan_1,"ArcGIS Imagery": layer_ArcGISImagery_0,};
 		L.control.opacity(Map_AddLayer,{label: 'Opacity',collapsed: true,}).addTo(map);
         </script>
     </body>
